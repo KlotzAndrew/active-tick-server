@@ -8,4 +8,4 @@ WORKDIR /code
 COPY atfeed-httpserver code/atfeed-httpserver
 COPY atfeed-httpserver/bin/libActiveTickServerAPI.so /usr/lib
 
-CMD ["sh", "atfeed-httpserver/bin/init.sh"]
+CMD ["sh", "code/atfeed-httpserver/bin/init.sh"]
